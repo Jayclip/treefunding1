@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Ultra&display=swap');
+
+:root {
+    --themeBlue: #577399;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(background1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 150px;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 2px 50px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3;
+    border-radius: 5px;
+
+}
+.nav-links ul li a:hover {
+    background-color: var(--themeBlue);
+}
+.text-box {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1 {
+    font-size: 62px;
+}
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 25px;
+}
+
+.tressPlant {
+    color: #7dc245;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+.tressPlant h1 {
+    font-size: 62px;
+    padding-bottom: 80px;
+}
+.tressPlant img {
+    max-width: 320px;
+    float: left;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 40px;
+}
+.trees-col h3 {
+    font-size: 30px;
+    
+}
+.trees-col p {
+    font-size: 17px;
+    padding: 50px;
+    color: #245501;
+}
+
+.Donate{
+    color: #7dc245;
+    text-align: center;
+}
+.Donate h1 {
+    font-size: 62px;
+    padding-top: 100px;
+}
+.Donate h2 {
+    font-size: 45px;
+    color: black;
+}
+
+.boxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.box{
+    flex: 0 0 45%;
+    margin: 10px;
+    padding: 20px ;
+    border-radius: 3px;
+    border-style:  solid;
+    border-color: black;
+}
+.box .center {
+    align-self: center;
+}
+.box a {
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+}
+.boxContainer .other {
+   align-self: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px ;   
+}
+.other {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.other input {
+    padding: 20px;
+    font-size: 20px;
+    border: 3px solid #333;
+}
+.nextPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.nextPage button {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.location {
+    width: 100%;
+    min-height: 80vh;
+    text-align: center; 
+    margin: auto;
+}
+.location h1 {
+    padding: 80px;
+    color: #7dc245;
+    font-size: 62px;
+}
+.location p {
+    padding: 40px;
+    color: #245501;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.aboutUs {
+    background-image: url(aboutus.png);
+    min-height: 80vh;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutUs h1 {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 100px;
+    text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+}
+.about-row {
+    text-align: center; 
+    margin: auto;
+    width: 70%;
+} 
+.about-row h2 {
+    font-size: 40px;
+    color: #7dc245;
+}
+.about-row p {
+    padding: 10px;
+    color: #245501;
+}
+
+.joinUs h3{
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px
+}
+.joinUs h3 {
+    color: #38b6ff;
+    text-decoration: none;
+}
+ .joinUs p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.socials{
+    min-height: 20vh;
+}
+.socials h1 {
+    color: #245501;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.media a {
+    margin: 20px 30px;
+    color: #f26419; 
+    font-size: 30px;
+}
+
+.media a:hover {
+    color: #7dc245;
+    transition: 0.3s;
+}
